@@ -1,0 +1,13 @@
+<button (click)="goBack()">go back</button>
+<div *ngIf="hero">
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title">{{ hero.name | uppercase }} Details</span>
+                    <div><span>id: </span>{{hero.id}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
